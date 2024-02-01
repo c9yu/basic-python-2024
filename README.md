@@ -76,3 +76,28 @@
         - 상속, 다중 상속
         - 추상클래스
     
+## 4일차
+- 파이썬 기초
+    - 패키지, 모듈 계속
+        - pip 사용
+        
+        ```shell
+        > pip --version # 버전 확인 -> 버전 확인했는데 최신 버전이 아니면 복사해서 다운 받기
+        > pip list # 현재 설치된 라이브러리 목록 확인
+        > pip install 패키지명 # 패키지를 내 컴퓨터에 설치 ex) pip install requests -> 마지막 줄에서 Successfully installed를 확인해야 함
+        > pip uninstall 패키지명 # 패키지를 삭제 
+        ```
+    - 예외 처리 : 비정상적 프로그램 종료 막기
+
+        ```python
+        def divide(x, y):
+            try : 
+                return x / y # ZeroDivisionError 발생
+            except ZeroDivisionError as e:
+                print('[오류]제수는 0이 될 수 없습니다.') # print('~~') 를 빼고 return print('~~') 는 차이가 있는가? 
+                return 0
+        ```
+    - 텍스트 파일 입출력
+- 파이썬 활용
+    - 주피터 노트북
+    
