@@ -15,8 +15,12 @@ def divide(x, y):
     try : 
         return x / y # ZeroDivisionError 발생
     except ZeroDivisionError as e:
-        print('[오류]제수는 0이 될 수 없습니다.') # print('~~') 를 빼고 return print('~~') 는 차이가 있는가? 
-        return 0
+        print('[오류]제수는 0이 될 수 없습니다.') # return 0 로 리턴값을 받을 때 3 X 0 = 0은 출력되지 않고 '[오류]~~' 만 출력할 수 없는가?
+        return None
+
+# -> 기존에 return 0를 주던것을 return None로 받고
+# divide 값이 None이 아닌 경우에 출력하는 것으로 하면 가능하다.
+
 
 def getOperands(): # 계산 할 수를 입력받고 리턴해주는 함수
     try: # 예외 처리는 try, except 구문으로 처리. 예외가 발생 할 수 있는 부분 (한 문장 말고 의심가는 부분 전부)
@@ -41,9 +45,13 @@ while True:
     elif mnu == 't':
         a, b = getOperands()
         print(f'곱셈 {a} X {b} = {multi(a, b)}')
+
     elif mnu == 'd':
         a, b = getOperands()
-        print(f'나눗셈 {a} X {b} = {divide(a, b)}')
+        res= divide(a, b)
+        if res != None: 
+            print(f'나눗셈 {a} X {b} = {res}')
+
 # 예외 3. 나눗셈에서 0으로 나누는 경우 : Zero Division Error, 예외가 발생
     elif mnu == 'x':
         break
