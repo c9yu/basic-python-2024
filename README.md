@@ -94,7 +94,7 @@
             try : 
                 return x / y # ZeroDivisionError 발생
             except ZeroDivisionError as e:
-                print('[오류]제수는 0이 될 수 없습니다.') # print('~~') 를 빼고 return print('~~') 는 차이가 있는가? 
+                print('[오류]제수는 0이 될 수 없습니다.') 
                 return 0
         ```
     - 텍스트 파일 입출력
