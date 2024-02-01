@@ -8,7 +8,9 @@
 # 3. w(write: 파일 쓰기) : 쓰기
 
 # encoding : cp949(ecu-kr : 한글), utf-8(국제 통용어, 어느나라 말이든 다 쓸 수 있는 것)
-f = open('sample.txt', mode='w', encoding='utf-8')
+#f = open(r'C:\sources\basic-python-2024\day 04\sample.txt', mode='w', encoding='utf-8') : 이 경우 day4안에 txt파일이 생성된다.
+f = open(r'sample.txt', mode='w', encoding='utf-8')
+
 # 뭔가를 한다.
 f.write('안녕하세요. IOT 개발자 과정입니다.\n') # mode가 a 혹은 w 일 때 f,write() 사용 가능
 f.write('반갑습니다!\n') # 추가해도 다음줄에 추가되는 것이 아니다. \n을 사용해야 함
