@@ -119,8 +119,16 @@
         f.write('text') # 쓰기
         f.close() # 파일은 반드시 닫는다.
         ```
-- 파이썬 활용
+
+- 파이썬 응용
     - 주피터 노트북
         - Ctrl + Shift + P -> (명령 팔레트) 로 시작
         - 사용방법 (test31_jupyternb.ipynb 참조)
     - folium
+    ![folium 사용법](https://raw.githubusercontent.com/c9yu/basic-python-2024/main/images/python_001.png)
+    - 이미지 업로드는 이미지 주소 복사 한 뒤 새로운 탭에서 연 뒤 URL 복사하여 사용
+
+## 5일차
+- 파이썬 응용
+    - 주피터 노트북 활용 - 구글 코랩(Colab)
+    - 
