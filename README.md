@@ -127,6 +127,7 @@
     - folium
     ![folium 사용법](https://raw.githubusercontent.com/c9yu/basic-python-2024/main/images/python_001.png)
     - 이미지 업로드는 이미지 주소 복사 한 뒤 새로운 탭에서 연 뒤 URL 복사하여 사용
+    - 형태 : ![파일 소개 문구](주소)
 
 ## 5일차
 - 파이썬 응용
