@@ -170,8 +170,18 @@
         def btnStartClicked(self):
             th = BackWorker(self)
             th.start() # BackWorker 내의 self.run() 실행
-            th.initSignal.connect(self.initpgbTask) #스레드에서 초기화 시그널이 오면 initPgbTask슬롯 함수가 대신 처리
+            th.initSignal.connect(self.initpgbTask) 
+            #스레드에서 초기화 시그널이 오면 initPgbTask슬롯 함수가 대신 처리
             # ...
+
+     # 스레드에서 시그널이 넘어오면 UI처리를 대신 해주는 슬롯함수
+        @pyqtSlot(int) # BackWorker 스레드에서 self.setLog.emit() 동작해서 실행
+        def initpgbTask(self, maxVal):
+            self.pgbTask.setValue(0)
+            self.pgbTask.setRange(0, maxVal-1)
+            # ...
+
+    # 자세한 내용은 test40_thread.py 참조
     ```
 
 - 가상환경
