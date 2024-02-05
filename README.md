@@ -146,5 +146,6 @@
     > pip install PyQt5Designer
     ```
     - PyQt5 기본 실행
+    - Thread : 하나의 프로그램을 동작 하기 위해 함께 작동되는 프로그램들
 
 - 가상환경
