@@ -1,0 +1,17 @@
+{
+    "ionic" : {
+        "price" : 200000000,
+        "year" : "2024",
+        "auto" : true
+    },
+    "genesis" : {
+        "price" : 800000000,
+        "year" : "2022",
+        "auto" : true
+    },
+    "ferrari" : {
+        "price" : 1500000000,
+        "year" : "2020",
+        "auto" : false
+    }
+}
