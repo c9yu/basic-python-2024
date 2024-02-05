@@ -154,7 +154,7 @@
     - Thread 주요 코드
     ```python
     # Thread 클래스에서
-    class BackWorker(QThread): # PyQt에서 스레드 클래스 상속
+    class BackWorker(QThread): # PyQt에서 스레드 클래스 상속 
         initSignal = pyqtSignal(int) # 시그널을 UI스레드로 전달하기 위한 변수객체
         setSignal = pyqtSignal(int) 
         # ...
