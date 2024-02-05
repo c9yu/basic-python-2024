@@ -150,8 +150,7 @@
     - Thread : 하나의 프로그램을 동작 하기 위해 함께 작동되는 프로그램들
     - Thread 학습 : UI스레드와 Background스레드 분리
 
-    ![Thread 예제](https://github.com/c9yu/basic-python-2024/blob/main/images/python_003.gif)
-
+    - Thread 주요 코드
     ```python
     # Thread 클래스에서
     class BackWorker(QThread): # PyQt에서 스레드 클래스 상속
@@ -183,5 +182,9 @@
 
     # 자세한 내용은 test40_thread.py 참조
     ```
+    - 결과물
+    ![Thread 예제](https://github.com/c9yu/basic-python-2024/blob/main/images/python_003.gif)
+
+
 
 - 가상환경
