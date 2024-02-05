@@ -148,7 +148,8 @@
     - PyQt5 기본 실행
     - QtDesigner 사용법
     - Thread : 하나의 프로그램을 동작 하기 위해 함께 작동되는 프로그램들
-    - 스레드 학습 : UI스레드와 Background스레드 분리
-    ![쓰레드예제](https://github.com/c9yu/basic-python-2024/blob/main/images/python_003.gif)
+    - Thread 학습 : UI스레드와 Background스레드 분리
+    
+    ![Thread 예제](https://github.com/c9yu/basic-python-2024/blob/main/images/python_003.gif)
 
 - 가상환경
