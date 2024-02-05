@@ -183,6 +183,7 @@
     # 자세한 내용은 test40_thread.py 참조
     ```
     - 결과물
+    
     ![Thread 예제](https://github.com/c9yu/basic-python-2024/blob/main/images/python_003.gif)
 
 
