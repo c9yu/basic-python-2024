@@ -139,4 +139,12 @@
 
 ## 6일차
 - 파이썬 응용
+    - Python 파일 경로 : C:\DEV\LANGS\Python311\Lib\site-packages
     - window App(PyQt) 만들기
+    ```shell
+    > pip install PyQt5
+    > pip install PyQt5Designer
+    ```
+    - PyQt5 기본 실행
+
+- 가상환경
