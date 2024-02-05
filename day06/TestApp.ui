@@ -19,7 +19,7 @@
   <property name="windowTitle">
    <string>QtDesigner 연습</string>
   </property>
-  <widget class="QLabel" name="lblsatus">
+  <widget class="QLabel" name="lblStatus">
    <property name="geometry">
     <rect>
      <x>30</x>
