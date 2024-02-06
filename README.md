@@ -150,6 +150,7 @@
 - Thread 
     - Thread : 하나의 프로그램을 동작 하기 위해 함께 작동되는 프로그램들
     - Thread 학습 : UI스레드와 Background스레드 분리
+        - [ ] GIL, 병렬 프로세싱 더 학습할 것
 
     - Thread 주요 코드
     ```python
