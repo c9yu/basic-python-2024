@@ -222,5 +222,13 @@
     - PyQt5와 응용예제 연습
         - 이미지 뷰어
         - 그림판 제작
-        - 이미지 뷰어와 그림판 결합
-        
+        - 이미지 에디터 (이미지 뷰어와 그림판을 결합)
+
+        ![PyQt예제](https://raw.githubusercontent.com/c9yu/basic-python-2024/main/images/python_004.png)
+
+## 8일차
+- 파이썬 응용
+    - PyQt 응용예제 계속
+    
+- 파이썬 기본 코딩 테스트
+ 
