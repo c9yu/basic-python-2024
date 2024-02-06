@@ -6,9 +6,14 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>500</width>
-    <height>400</height>
+    <width>800</width>
+    <height>450</height>
    </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>나눔고딕</family>
+   </font>
   </property>
   <property name="windowTitle">
    <string>Form</string>
@@ -18,8 +23,8 @@
     <rect>
      <x>10</x>
      <y>10</y>
-     <width>481</width>
-     <height>301</height>
+     <width>781</width>
+     <height>381</height>
     </rect>
    </property>
    <property name="text">
@@ -30,8 +35,8 @@
    <property name="geometry">
     <rect>
      <x>10</x>
-     <y>330</y>
-     <width>481</width>
+     <y>400</y>
+     <width>781</width>
      <height>41</height>
     </rect>
    </property>
@@ -61,6 +66,20 @@
      <widget class="QPushButton" name="btn_clear">
       <property name="text">
        <string>모두지움</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="btn_load">
+      <property name="text">
+       <string>이미지 로드</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="btn_save">
+      <property name="text">
+       <string>이미지 저장</string>
       </property>
      </widget>
     </item>
