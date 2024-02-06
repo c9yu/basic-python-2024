@@ -188,5 +188,31 @@
     ![Thread 예제](https://github.com/c9yu/basic-python-2024/blob/main/images/python_003.gif)
 
 
+## 7일차
+- 파이썬 응용
+    - 객체 지향
+        - 오버라이딩(재정의)
+        ```python
+            # QWidget에 있는 closeEvent를 그대로 쓰면 그냥 닫힘
+            # 닫을지 말지를 한번 더 물어보는 형태로 다시 구현하고 싶음(재정의: override)
+           
+            def closeEvent(self, QCloseEvent) -> None: 
+                re = QMessageBox.question(self, '종료 확인', '종료 하시겠습니까?', QMessageBox.Yes|QMessageBox.No)
+                if re == QMessageBox.Yes: 
+                    QCloseEvent.accept()
+                else :
+                    QCloseEvent.ignore()
+        ```
+        - 오버로딩
+            - 같은 이름의 함수를 여러개 활용, 매개변수는 다르게
+    - 가상환경 (vitrual environment)
+        - 1. cmd에서 install virtualenv
+        - 2. 터미널에서 경로를 cd .\day07\env07\Scripts\로 변경 후 dir -> 가상환경 구성 완료
+        - 구 버전 python 사용
+            - 1. 필요로 하는 버전의 python 다운로드
+            - 2. 이 경우 기본으로 사용하는 python의 버전이 변경된다.
+            - 3. sysdm.cpl에서 '고급' 탭 환경변수 클릭
+            - 4. 시스템 변수의 path 값을 더블클릭해 들어가, 기존 사용하던 버전을 위로 올려준다(Scripts 파일까지).
+        - 우측 하단의 버전을 클릭해도 구 버전의 가상환경 구축 가능
 
-- 가상환경
+    - PyQt5와 응용예제 연습
