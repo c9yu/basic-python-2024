@@ -11,7 +11,7 @@ from PyQt5.QtWidgets import *
 class WinApp(QWidget):
     def __init__(self) -> None:
         super().__init__()
-        self.initUI()
+        self.initUI() 
 
     def initUI(self):
         uic.loadUi('./day07/pyPaint.ui',self)
